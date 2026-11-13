@@ -32,8 +32,8 @@ Aplicația efectuează operații matematice asupra a trei valori numerice, alege
 
 În funcție de starea selectorului boolean, aplicația execută una dintre următoarele operații:
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 **Ieșire:**
 - `s` – rezultatul operației selectate.
@@ -73,8 +73,8 @@ Aplicația implementează un mecanism de calcul similar celui din aplicația pre
 
 **Logică de funcționare:**
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 Aplicația evidențiază utilizarea tipurilor de date întregi fără semn în operații matematice și în selectarea condițională a rezultatelor.
 
@@ -260,8 +260,8 @@ Aplicația realizează operații de înmulțire, împărțire, adunare și scăd
 
 Rezultatele sunt transmise către o funcție de selecție, care alege valoarea numerică în funcție de starea selectorului boolean:
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 În paralel, funcția `Append True/False String` selectează mesajul text corespunzător stării logice.
 
@@ -402,8 +402,8 @@ This application performs mathematical operations on three numeric values. The s
 
 Depending on the Boolean selector state, the application performs one of the following operations:
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 **Output:**
 - `s` – result of the selected operation.
@@ -443,8 +443,8 @@ This application implements a calculation mechanism similar to the previous appl
 
 **Operating Logic:**
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 The application demonstrates the use of unsigned integer data types in mathematical operations and conditional result selection.
 
@@ -630,8 +630,8 @@ The application performs multiplication, division, addition, and subtraction.
 
 The results are connected to a selection function, which chooses the numeric value according to the Boolean selector state:
 
-- `TRUE`: \(s = (a \times b) - c\)
-- `FALSE`: \(s = (a / b) + c\)
+- `TRUE`: $$s = (a \times b) - c$$
+- `FALSE`: $$s = (a / b) + c$$
 
 At the same time, the `Append True/False String` function selects the corresponding text message according to the logical state.
 
